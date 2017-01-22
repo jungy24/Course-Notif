@@ -11,6 +11,8 @@ import UIKit
 class ViewController2: UIViewController {
     
     var classCount: Int?
+    var arrayLength: Int?
+    var courseId = 1
     
     @IBOutlet weak var courseCountLabel: UILabel!
     @IBOutlet weak var courseField: UITextField!
@@ -19,18 +21,19 @@ class ViewController2: UIViewController {
     @IBOutlet weak var endField: UITextField!
     
     override func viewDidLoad() {
+        
+        courseCountLabel.text = String(format: "What is course #%d?", courseId)
+        
         super.viewDidLoad()
 
         print(classCount)
+    
         // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func getLast(_ sender: Any) {
     }
 
     @IBAction func onNext(_ sender: Any) {
@@ -42,9 +45,8 @@ class ViewController2: UIViewController {
         } else {
             let next = self.storyboard?.instantiateViewController(withIdentifier: "class") as! ViewController2
             
-            
-            
             next.classCount = classCount! - 1
+            next.courseId = courseId + 1
             
             self.navigationController?.pushViewController(next, animated: true)
         }

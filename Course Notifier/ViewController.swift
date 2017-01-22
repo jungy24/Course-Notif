@@ -26,9 +26,10 @@ class ViewController: UIViewController {
         
         //moving from city to another, and u send the furniture to the city ur moving to
         let vc = segue.destination as! ViewController2
+        let arrayL = Int(classCountField.text!)
         
         vc.classCount = Int(classCountField.text!)
-        
+        vc.arrayLength = arrayL
     }
     
     @IBAction func onNext(_ sender: Any) {
