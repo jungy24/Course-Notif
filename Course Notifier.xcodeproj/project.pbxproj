@@ -14,6 +14,16 @@
 		5060DFB01E33508800352B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5060DFAE1E33508800352B99 /* LaunchScreen.storyboard */; };
 		5060DFBB1E33508800352B99 /* Course_NotifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060DFBA1E33508800352B99 /* Course_NotifierTests.swift */; };
 		5060DFC61E33508800352B99 /* Course_NotifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060DFC51E33508800352B99 /* Course_NotifierUITests.swift */; };
+		5060DFD41E3353EC00352B99 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060DFD31E3353EC00352B99 /* SettingsViewController.swift */; };
+		5060DFDA1E33582E00352B99 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 5060DFD91E33582E00352B99 /* settings.png */; };
+		5060DFDB1E33582E00352B99 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 5060DFD91E33582E00352B99 /* settings.png */; };
+		5060DFDC1E33582E00352B99 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 5060DFD91E33582E00352B99 /* settings.png */; };
+		5060DFDE1E335D9400352B99 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060DFDD1E335D9400352B99 /* ViewController2.swift */; };
+		5060DFDF1E335D9400352B99 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060DFDD1E335D9400352B99 /* ViewController2.swift */; };
+		5060DFE01E335D9400352B99 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060DFDD1E335D9400352B99 /* ViewController2.swift */; };
+		5060DFE21E33645800352B99 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060DFE11E33645800352B99 /* ViewController3.swift */; };
+		5060DFE31E33645800352B99 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060DFE11E33645800352B99 /* ViewController3.swift */; };
+		5060DFE41E33645800352B99 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060DFE11E33645800352B99 /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,10 @@
 		5060DFC11E33508800352B99 /* Course NotifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Course NotifierUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5060DFC51E33508800352B99 /* Course_NotifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course_NotifierUITests.swift; sourceTree = "<group>"; };
 		5060DFC71E33508800352B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5060DFD31E3353EC00352B99 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5060DFD91E33582E00352B99 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		5060DFDD1E335D9400352B99 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		5060DFE11E33645800352B99 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +114,11 @@
 				5060DFA51E33508800352B99 /* AppDelegate.swift */,
 				5060DFA71E33508800352B99 /* ViewController.swift */,
 				5060DFA91E33508800352B99 /* Main.storyboard */,
+				5060DFE11E33645800352B99 /* ViewController3.swift */,
+				5060DFDD1E335D9400352B99 /* ViewController2.swift */,
+				5060DFD31E3353EC00352B99 /* SettingsViewController.swift */,
 				5060DFAC1E33508800352B99 /* Assets.xcassets */,
+				5060DFD91E33582E00352B99 /* settings.png */,
 				5060DFAE1E33508800352B99 /* LaunchScreen.storyboard */,
 				5060DFB11E33508800352B99 /* Info.plist */,
 			);
@@ -232,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5060DFDA1E33582E00352B99 /* settings.png in Resources */,
 				5060DFB01E33508800352B99 /* LaunchScreen.storyboard in Resources */,
 				5060DFAD1E33508800352B99 /* Assets.xcassets in Resources */,
 				5060DFAB1E33508800352B99 /* Main.storyboard in Resources */,
@@ -242,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5060DFDB1E33582E00352B99 /* settings.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5060DFDC1E33582E00352B99 /* settings.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +280,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5060DFE21E33645800352B99 /* ViewController3.swift in Sources */,
 				5060DFA81E33508800352B99 /* ViewController.swift in Sources */,
+				5060DFDE1E335D9400352B99 /* ViewController2.swift in Sources */,
 				5060DFA61E33508800352B99 /* AppDelegate.swift in Sources */,
+				5060DFD41E3353EC00352B99 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +293,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5060DFBB1E33508800352B99 /* Course_NotifierTests.swift in Sources */,
+				5060DFDF1E335D9400352B99 /* ViewController2.swift in Sources */,
+				5060DFE31E33645800352B99 /* ViewController3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +303,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5060DFC61E33508800352B99 /* Course_NotifierUITests.swift in Sources */,
+				5060DFE01E335D9400352B99 /* ViewController2.swift in Sources */,
+				5060DFE41E33645800352B99 /* ViewController3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
